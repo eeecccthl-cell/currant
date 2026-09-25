@@ -1,3 +1,11 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Baseline 主题把 --highlight 指到了 Obsidian 的高亮黄（--text-highlight-bg）上，
+// 于是双链、标签、代码高亮全变成黄底，配上紫色的链接文字非常难看。
+// 这里把 --highlight 收回 Quartz 原本的浅灰底；==高亮== 用的是 --textHighlight，
+// 是另一个变量，不受影响。
+:root {
+  --highlight: #8f9fa926;
+}
