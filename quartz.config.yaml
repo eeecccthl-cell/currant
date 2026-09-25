@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: currant
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -101,9 +101,9 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: false
+    enabled: true
     options:
-      theme: tokyo-night
+      theme: nord
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
